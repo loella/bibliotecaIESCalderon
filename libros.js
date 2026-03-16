@@ -1,0 +1,22 @@
+const libros = [
+{titulo:"El principito",autor:"Antoine de Saint-Exupéry",pos:[-4,1,-6],portada:"https://covers.openlibrary.org/b/title/el%20principito-L.jpg",resumen:"Un pequeño príncipe viaja por planetas aprendiendo sobre la vida.",recomienda:"Lucía"},
+{titulo:"Harry Potter y la piedra filosofal",autor:"J.K. Rowling",pos:[-3,1,-6],portada:"https://covers.openlibrary.org/b/title/harry%20potter%20and%20the%20philosopher%20stone-L.jpg",resumen:"Un niño descubre que es mago y empieza su vida en Hogwarts.",recomienda:"Carlos"},
+{titulo:"Los juegos del hambre",autor:"Suzanne Collins",pos:[-2,1,-6],portada:"https://covers.openlibrary.org/b/title/the%20hunger%20games-L.jpg",resumen:"Una joven debe sobrevivir en un torneo mortal.",recomienda:"Ana"},
+{titulo:"Percy Jackson y el ladrón del rayo",autor:"Rick Riordan",pos:[-1,1,-6],portada:"https://covers.openlibrary.org/b/title/percy%20jackson-L.jpg",resumen:"Un joven descubre que es hijo de un dios griego.",recomienda:"Miguel"},
+{titulo:"El Hobbit",autor:"J.R.R. Tolkien",pos:[0,1,-6],portada:"https://covers.openlibrary.org/b/title/the%20hobbit-L.jpg",resumen:"Bilbo Bolsón emprende una aventura con enanos.",recomienda:"Sara"},
+{titulo:"Matilda",autor:"Roald Dahl",pos:[1,1,-6],portada:"https://covers.openlibrary.org/b/title/matilda-L.jpg",resumen:"Una niña con poderes especiales y amor por los libros.",recomienda:"Laura"},
+{titulo:"Cazadores de sombras: Ciudad de hueso",autor:"Cassandra Clare",pos:[2,1,-6],portada:"https://covers.openlibrary.org/b/title/city%20of%20bones-L.jpg",resumen:"Clary descubre un mundo de cazadores de sombras.",recomienda:"David"},
+{titulo:"El diario de Greg",autor:"Jeff Kinney",pos:[3,1,-6],portada:"https://covers.openlibrary.org/b/title/diary%20of%20a%20wimpy%20kid-L.jpg",resumen:"Las aventuras cómicas de Greg Heffley.",recomienda:"Mario"},
+{titulo:"Wonder",autor:"R.J. Palacio",pos:[4,1,-6],portada:"https://covers.openlibrary.org/b/title/wonder-L.jpg",resumen:"Un niño con diferencias faciales afronta la escuela.",recomienda:"Elena"},
+{titulo:"El señor de los anillos: La comunidad del anillo",autor:"J.R.R. Tolkien",pos:[-4,1,-5],portada:"https://covers.openlibrary.org/b/title/the%20lord%20of%20the%20rings-L.jpg",resumen:"Frodo inicia su viaje para destruir el anillo.",recomienda:"Tomás"},
+{titulo:"Alicia en el país de las maravillas",autor:"Lewis Carroll",pos:[-3,1,-5],portada:"https://covers.openlibrary.org/b/title/alice-L.jpg",resumen:"Alicia cae en un mundo fantástico lleno de aventuras.",recomienda:"Isabel"},
+{titulo:"El guardián entre el centeno",autor:"J.D. Salinger",pos:[-2,1,-5],portada:"https://covers.openlibrary.org/b/title/the%20catcher%20in%20the%20rye-L.jpg",resumen:"La historia del joven Holden Caulfield.",recomienda:"Hugo"},
+{titulo:"Los juegos del hambre: En llamas",autor:"Suzanne Collins",pos:[-1,1,-5],portada:"https://covers.openlibrary.org/b/title/catching%20fire-L.jpg",resumen:"Katniss lucha por sobrevivir de nuevo en el torneo.",recomienda:"Ana"},
+{titulo:"Percy Jackson: El mar de los monstruos",autor:"Rick Riordan",pos:[0,1,-5],portada:"https://covers.openlibrary.org/b/title/sea%20of%20monsters-L.jpg",resumen:"Percy y sus amigos buscan el Vellocino de Oro.",recomienda:"Miguel"},
+{titulo:"El principito 2",autor:"Antoine de Saint-Exupéry",pos:[1,1,-5],portada:"https://covers.openlibrary.org/b/title/el%20principito-L.jpg",resumen:"Continuación imaginaria de las aventuras del principito.",recomienda:"Lucía"},
+{titulo:"Diario de Greg 2",autor:"Jeff Kinney",pos:[2,1,-5],portada:"https://covers.openlibrary.org/b/title/diary%20of%20a%20wimpy%20kid%202-L.jpg",resumen:"Greg continúa sus disparatadas aventuras.",recomienda:"Mario"},
+{titulo:"Matilda 2",autor:"Roald Dahl",pos:[3,1,-5],portada:"https://covers.openlibrary.org/b/title/matilda-L.jpg",resumen:"Más aventuras de Matilda.",recomienda:"Laura"},
+{titulo:"Wonder 2",autor:"R.J. Palacio",pos:[4,1,-5],portada:"https://covers.openlibrary.org/b/title/wonder-L.jpg",resumen:"Segunda parte de la historia de Auggie.",recomienda:"Elena"},
+{titulo:"Cazadores de sombras 2",autor:"Cassandra Clare",pos:[-4,1,-4],portada:"https://covers.openlibrary.org/b/title/city%20of%20ashes-L.jpg",resumen:"Clary sigue enfrentando a los demonios.",recomienda:"David"},
+{titulo:"El señor de los anillos 2",autor:"J.R.R. Tolkien",pos:[-3,1,-4],portada:"https://covers.openlibrary.org/b/title/the%20two%20towers-L.jpg",resumen:"La comunidad sigue su viaje hacia Mordor.",recomienda:"Tomás"}
+];
