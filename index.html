@@ -8,24 +8,20 @@
 <body>
 
 <div id="hud">
-<div id="controls">
-<b>Controles</b><br>
-W A S D = mover<br>
-Ratón = mirar<br>
-Click = abrir libro
-</div>
+<b>Controles:</b> W/A/S/D = mover, ratón = mirar, clic = abrir libro
 </div>
 
 <div id="ficha">
 <h2 id="titulo"></h2>
 <img id="portada">
 <p><b>Autor:</b> <span id="autor"></span></p>
-<p><b>Resumen</b></p>
+<p><b>Resumen:</b></p>
 <p id="resumen"></p>
 <p><b>Recomendado por:</b> <span id="recomienda"></span></p>
 <button onclick="cerrarLibro()">Cerrar</button>
 </div>
 
+<!-- Three.js desde CDN -->
 <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
 <script src="libros.js"></script>
 <script src="app.js"></script>
